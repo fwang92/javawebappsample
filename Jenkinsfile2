@@ -15,8 +15,8 @@ node {
   }
   
   stage('deploy') {
-    def webAppResourceGroup = '<myResourceGroup>'
-    def webAppName = '<app_name>'
+    def webAppResourceGroup = 'linuxcalcdemo'
+    def webAppName = 'linuxcalcdemo'
     def acrName = '<myRegistry>'
     def imageName = 'calculator'
     // generate version, it's important to remove the trailing new line in git describe output
