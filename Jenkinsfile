@@ -18,7 +18,7 @@ node {
   
   stage('deploy') {
     def resourceGroup = 'azcalcdemo' 
-    def webAppName = 'calcDemo2'
+    def webAppName = 'calcdemo3'
     // login Azure
     withCredentials([azureServicePrincipal('379c05b0-4e15-41e7-9506-a3806277f717')]) {
       sh '''
